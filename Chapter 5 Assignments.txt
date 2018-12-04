@@ -16,8 +16,8 @@ Algorithm Workbench
 			System.out.print('#');
 		}
 		
-	11. while (numInput < 1 && numInput > 5) {
-			System.out.println("Please enter a number in the range of 1 through 5!");
+	11. while (numInput < 1 ||	numInput > 5) {
+			System.out.println("Please enter a number in the range of 1 through 5!: ");
 			numInput = kb.nextInt();
 		}
 		
@@ -31,4 +31,4 @@ Find the Error
 	   
 	2. Total was never initialized.
 	
-	4. Count adds two every iteration.
+	4. Count adds two every iteration. There should also be a semi-colon outside of the parenthesis rather than in.
