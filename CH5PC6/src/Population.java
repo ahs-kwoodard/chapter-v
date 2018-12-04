@@ -30,11 +30,11 @@ public class Population { //Population class
         dayNumber = dn;
     }
     
+    //Accesor methods
     public int getStartOrganisms() {
         return startSize;
     }
     
-    //Accesor methods
     public double getPercentageIncrease() {
         return percentageIncrease;
     }
